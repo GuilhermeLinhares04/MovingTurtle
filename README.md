@@ -5,6 +5,11 @@ Este repositório contém um projeto em ROS 2 que utiliza o turtlesim para fazer
 ## Requisitos
 
 Para executar este projeto, é necessário ter o ROS 2 instalado e o linux como sistema operacional.
+Além disso, é necessário clonar o repositório [ros2_tutorials](https://github.com/ros/ros_tutorials.git) no caminho `turtle_workspace/src`. Para isso, execute o comando abaixo:
+
+```bash
+git clone https://github.com/ros/ros_tutorials.git -b humble 
+```
 
 ## Como executar
 
@@ -17,5 +22,7 @@ Para executar o projeto, siga os passos abaixo:
 5. Execute o comando `ros2 run turtle_pond turtle`, para executar o projeto
 
 ## Vídeo de demonstração
+
+Clique na imagem abaixo para assistir ao vídeo de demonstração do projeto:
 
 [![Vídeo de demonstração](https://arminlab.com/wp-content/uploads/2022/09/icons8-youtube-play-button-2048-300x300.png)](https://youtu.be/dS2lNNI1Y84)
